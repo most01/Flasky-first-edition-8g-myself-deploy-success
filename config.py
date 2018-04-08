@@ -21,7 +21,7 @@ class Config:
     MAIL_USE_TLS = True
     # MAIL_USERNAME = '1300603800@qq.com'
     # MAIL_PASSWORD = 'wsyzywcy'
-	MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
+    MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
     FLASKY_MAIL_SENDER = 'Flasky Admin <1300603800@qq.com>'
